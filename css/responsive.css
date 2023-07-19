@@ -41,7 +41,7 @@
     .discount-img{
         width: 100%;
     }
-    .discount-text, .gamer-container, .gamer-container-p, .gamer-container-p2{
+    .discount-text,.gamer-container, .gamer-container-p, .gamer-container-p2{
         width: 100%;
         text-align: center;
     }
@@ -52,5 +52,15 @@
     .single-product img, p{
         width: 100%;
         margin-bottom: 10px;
+     }
+     /*last main part*/
+     .career-container{
+        flex-direction: column;
+     }
+     .text-container{
+        width: 100%;
+     }
+     .img-container, .img-container img{
+        width: 100%;
      }
 }
