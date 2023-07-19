@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato' sans-serif ;
+}
+nav{
+    background-color: #ffff;
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+.logo-container img{
+    width: 86.041px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+.logo-container p{
+    font-size: 30px;
+}
+.hive-section{
+    color: #FF42A5;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 70px;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.follow-btn{
+    background: rgba(11, 2, 35, 0.10);  
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/*nav design ends here*/
+
+/*banner design start*/
+
+.banner-container{
+    border: 1px solid rebeccapurple;
+    margin: 0 auto;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+}
+.banner-text{
+    border: 1px solid red;
+    width: 50%;
+    background-image: url('../B8A2-Gamer-Zone/images/Group\ 14.png');
+    text-align: center;
+    padding-top: 110px;
+}
+.banner-img{
+    border: 1px solid blue;
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.banner-text h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 30px;  
+}
+.banner-text h1{
+    font-size: 40px;
+    font-family: Work Sans;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text p{
+    color: #534C64;
+    font-size: 20px;;
+    font-family: Work Sans;
+}
+.banner-text button{
+    text-align: center;
+}
+.banner-btn{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 10px 20px;  
+    border-radius: 8px;
+    color: white;
+    border: 0;
+}
+.banner-btn2{
+    background: #4EC5F7;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    border: 0;
+}
+/*banner design end*/

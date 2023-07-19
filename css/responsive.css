@@ -1,0 +1,26 @@
+@media screen and (max-width:400px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
+    .nav-item-container .follow-btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    /*nav responsive ends here*/
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .banner-img{
+        margin-bottom: 10px;
+    }
+}
