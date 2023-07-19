@@ -26,6 +26,7 @@ nav{
 }
 .logo-container p{
     font-size: 30px;
+    margin-top: 22px;
 }
 .hive-section{
     color: #FF42A5;
@@ -53,21 +54,19 @@ nav{
 /*banner design start*/
 
 .banner-container{
-    border: 1px solid rebeccapurple;
     margin: 0 auto;
     max-width: 1400px;
     min-height: 50px;
     display: flex;
+    background-color: #ffff;
 }
 .banner-text{
-    border: 1px solid red;
     width: 50%;
     background-image: url('../B8A2-Gamer-Zone/images/Group\ 14.png');
     text-align: center;
     padding-top: 110px;
 }
 .banner-img{
-    border: 1px solid blue;
     width: 50%;
 }
 .banner-img img{
@@ -98,7 +97,7 @@ nav{
 .banner-btn{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     padding: 10px 20px;  
-    border-radius: 8px;
+    border-radius: 10px;
     color: white;
     border: 0;
 }
@@ -110,3 +109,150 @@ nav{
     border: 0;
 }
 /*banner design end*/
+
+/*
+*/
+
+/*product section starts here*/
+
+.grid-container{
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 400px;
+    margin-top: 20px;
+    background: #FFF;
+    grid-template-columns: repeat(4, 1fr);
+}
+.h1-container{
+    text-align: center;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.p-container{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -20px;
+}
+.h1-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+ .single-product img, p{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+ }
+ .single-product p{
+    padding-top: 10px;
+ }
+/*product section end here*/
+
+/*discount section starts here*/
+
+.discount-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    min-height: 500px;
+    padding: 20px 0;
+    display: flex;
+}
+.discount-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+}
+.discount-img{
+    width: 60%;
+}
+.discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.discount-text{
+    width: 40%;
+    text-align: right;
+}
+.gamer-container{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-container-p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer-container-p2{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer-span{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+.gamer-btn{
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: flex-start;
+    color: #ffff;
+    border: 0;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*discount section end here*/
+
+/*last main section starts here*/
+
+.career-section{
+    min-height: 500px;
+    padding: 20px 0;
+    display: flex; 
+ }
+ .career-container{
+    border: 1px solid red;
+    width: 50%;
+ }
+ .img-container{
+    border: 1px solid blue;
+    width: 50%;
+ }
+
+/*last main section starts here*/
