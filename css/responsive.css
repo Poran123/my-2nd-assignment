@@ -9,13 +9,20 @@
      }
     
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:572px) {
     .nav-container{
         flex-direction: column;
     }
     .nav-item-container{
         flex-direction: column;
     }
+
+.logo-container img{
+    margin-left: 30px;
+}
+.logo-container p{
+    margin-right: 50px;
+}
     .nav-items-container{
         flex-direction: column;
     }
@@ -38,20 +45,18 @@
     .discount-container{
         flex-direction: column;
     }
-    .discount-img{
+ 
+    .discount-text,.discount-img{
         width: 100%;
-    }
-    .discount-text,.gamer-container, .gamer-container-p, .gamer-container-p2{
-        width: 100%;
-        text-align: center;
     }
     /*banner responsive ends here*/
     .grid-container{
         grid-template-columns: 1fr;
     }
     .single-product img, p{
-        width: 100%;
+        width: 80%;
         margin-bottom: 10px;
+        text-align: center;
      }
      /*last main part*/
      .career-container{
@@ -63,4 +68,39 @@
      .img-container, .img-container img{
         width: 100%;
      }
+    /*icon part*/
+     .icon-container{
+        justify-content: space-around;
+        gap: 0;
+    }
+    .icon-container{
+        width: 100%;
+    }
+    .icon img{
+        width: 30px;
+    }
+    .icon{
+        padding: 0px;
+        margin: 0px;
+    }
+    .icon p{
+        font-size: 6px;
+        margin: 0px;
+    }
+    /*footer*/
+    .footer{
+        height: 650px;
+      }
+      .footer-services{
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .footer-term{
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-icons{
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .footer-copy{
+        margin: 0 auto;
+      }
 }
