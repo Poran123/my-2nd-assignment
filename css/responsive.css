@@ -58,6 +58,27 @@
         margin-bottom: 10px;
         text-align: center;
      }
+     /*Play section part*/
+     .play-ins-container{
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+      .play-ins-wp{
+        padding-bottom: 30px;
+        margin-top: 0px;
+        width: 200px;
+        margin-left: 100px;
+        justify-content: center;
+      }
+     .play-ins-container{
+        flex-direction: column;
+     }
+     .play-img{
+        width: 350px;
+        margin-left: 100px;
+     }
+
      /*last main part*/
      .career-container{
         flex-direction: column;
@@ -68,6 +89,7 @@
      .img-container, .img-container img{
         width: 100%;
      }
+     
     /*icon part*/
      .icon-container{
         justify-content: space-around;

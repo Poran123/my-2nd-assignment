@@ -257,6 +257,32 @@ nav{
 }
 
 /*discount section end here*/
+/*Play section start here*/
+.play-ins-container{
+    display: flex;
+    width: 1000px;
+    margin-top: 20px;
+    justify-content: end;
+    gap: 50px;
+    margin-left: 200px;
+  }
+  .play-ins-wp{
+    padding-bottom: 100px;
+    margin-top: 100px;
+    width: 400px;
+  }
+  .play-img{
+    width: 500px;
+  }
+  .play-ins-h{
+    text-align: right;
+  }
+  .play-ins-p{
+    text-align: right;
+    margin-right: 5px;
+  }
+ 
+/*Play section end here*/
 
 /*last main section starts here*/
 
@@ -375,7 +401,7 @@ nav{
 }
 .icon:hover{
     border: 1px solid #ff42a5;
-    border-radius: 48px;
+    border-radius: px;
     transition: background-color 0.5s ease;
 }
 
@@ -422,7 +448,7 @@ nav{
   .footer-icons{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    width: 50%;
+    width: 30%;
     justify-content: center;
     margin: 0 auto;
     margin-top: 20px;
@@ -441,7 +467,7 @@ nav{
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     margin: 0 auto;
-    width: 40%;
+    width: 30%;
     margin-top: 20px;
   
   }
@@ -458,4 +484,6 @@ nav{
     margin-left: 450px;
     padding-bottom: 30px;
   }
+  
+
   
